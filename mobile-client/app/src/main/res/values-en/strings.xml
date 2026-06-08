@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">SISPTMClient</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Set up your client profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="full_name_placeholder">Your full name</string>
+    <string name="email">Email</string>
+    <string name="email_placeholder">your@email.com</string>
+    <string name="invalid_email">Enter a valid email address</string>
+    <string name="password">Password</string>
+    <string name="password_placeholder">Min. 8 characters</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="register_button">Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="accept_terms">I accept the terms and conditions</string>
+    <string name="login_title">Client Login</string>
+    <string name="login_button">Login</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="welcome_home">Welcome to the Home Screen!</string>
+    <string name="logout">Logout</string>
+    <string name="home_title">Home</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="connection_success">Connection Success: %1$s</string>
+    <string name="connection_error">Connection Error: %1$s</string>
+    <string name="search_partners">Search Partners</string>
+    <string name="get_started">Get Started</string>
+    <string name="already_user">Already a user? </string>
+    <string name="sign_in">Sign in</string>
+
+    <string name="welcome_title">TourPresence</string>
+    <string name="welcome_subtitle">Explore the world from your device</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="new_here">New here? </string>
+    <string name="create_account">Create an account</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="explore_tours">Explore Tours</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="no_tours_available">No tours available at the moment.</string>
+    <string name="search_placeholder">Search for a destination...</string>
+    <string name="home_greeting">Hello, %1$s!</string>
+    <string name="home_subtitle">Where do you want to travel today?</string>
+    <string name="home_search_hint">Search city or destination...</string>
+    <string name="home_city_guides">%1$s: %2$d guides</string>
+    <string name="home_destinations_title">DESTINATIONS AVAILABLE NOW</string>
+    <string name="home_active_partners">%1$d active partners</string>
+    <string name="home_coming_soon">Coming soon</string>
+    <string name="home_profile">Profile</string>
+    <string name="home_sign_out">Sign out</string>
+    <string name="home_explore">Explore</string>
+    <string name="home_services_active">Active services</string>
+    <string name="home_services_no_active">No active services</string>
+    <string name="home_services_history">Service history</string>
+    <string name="home_services_no_history">No services in history</string>
+    <string name="active_services">Active services</string>
+    <string name="search_cancel">Cancel</string>
+    <string name="search_partners_found">%1$d partners found</string>
+    <string name="search_sort_by">Sort by</string>
+    <string name="search_response_time">Response time: %1$s</string>
+    <string name="search_available">Available</string>
+    <string name="search_request_tour">Request Tour</string>
+    <string name="streaming_title">Live Stream</string>
+    <string name="connection_status_good">Connection: Good</string>
+    <string name="connection_status_poor">Connection: Poor</string>
+    <string name="control_up">UP</string>
+    <string name="control_down">DOWN</string>
+    <string name="control_left">LEFT</string>
+    <string name="control_right">RIGHT</string>
+    <string name="end_session">End Session</string>
+
+    <string name="gps_permission_required">GPS Permission Required</string>
+    <string name="gps_permission_explanation">This app requires GPS access to update your location
+        and receive tour requests. Please enable permissions to continue.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="error_accept_request">Could not accept request</string>
+    <string name="ok">OK</string>
+    <string name="tab_requests">Requests</string>
+    <string name="tab_my_services">My Services</string>
+    <string name="send_location">Send Current Location</string>
+    <string name="status_offline_title">You are offline</string>
+    <string name="status_offline_explanation">Go online to receive incoming tour requests.</string>
+    <string name="no_requests_yet">You don\'t have any requests yet. Make sure you\'re online to
+        receive new ones!</string>
+    <string name="retry">Retry</string>
+    <string name="waiting_for_requests">Waiting for requests...</string>
+    <string name="services_active">Active services</string>
+    <string name="services_no_active">No active services</string>
+    <string name="services_history">Service history</string>
+    <string name="services_no_history">No services in history</string>
+    <string name="services_idle">Service list is not loaded yet.</string>
+    <string name="label_client">Client</string>
+    <string name="label_location">Location</string>
+    <string name="label_hours">Hours</string>
+    <string name="label_rate">Rate</string>
+    <string name="availability_status">Availability Status</string>
+    <string name="availability_explanation">Turn on to receive tour requests</string>
+    <string name="status_online">You are online · Visible to clients</string>
+    <string name="status_offline">You are offline · Not visible to clients</string>
+    <string name="tours_today">Tours today</string>
+    <string name="your_rating">Your rating</string>
+    <string name="incoming_requests">Incoming Requests</string>
+    <string name="new_requests_count">%1$d new</string>
+
+    <!-- ServiceSummaryScreen -->
+    <string name="service_summary">Service Summary</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="failed_load_service_details">Failed to load service details</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="confirm_payment">Confirm Payment</string>
+    <string name="payment_confirmed">Payment Confirmed</string>
+    <string name="service_completed">Service Completed!</string>
+    <string name="thank_you_synexis">Thank you for using Synexis. We hope you enjoyed your virtual
+        tour!</string>
+    <string name="service_stats">Service Stats</string>
+    <string name="duration">Duration</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="your_guide">Your Guide</string>
+    <string name="unknown_guide">Unknown Guide</string>
+    <string name="service_details">Service Details</string>
+    <string name="service_id_label">Service ID</string>
+    <string name="completed_on">Completed On</string>
+    <string name="not_available">N/A</string>
+
+    <!-- ServiceWaitingScreen -->
+    <string name="service_status">Service status</string>
+    <string name="loading_active_request">Loading your active request…</string>
+    <string name="no_service_requests_yet">No service requests yet.</string>
+    <string name="service_prefix">Service #</string>
+    <string name="status_prefix">Status: </string>
+    <string name="location_prefix">Location: </string>
+    <string name="not_specified">Not specified</string>
+    <string name="hours_prefix">Hours: </string>
+    <string name="hourly_rate_prefix">Hourly rate: </string>
+    <string name="open_waiting_screen">Open waiting screen</string>
+    <string name="cancel_tour">Cancel tour</string>
+    <string name="refresh_status">Refresh status</string>
+    <string name="waiting_for_partner_accept">Waiting for a partner to accept your request.</string>
+    <string name="partner_accepted_waiting_start">A partner accepted your request. Waiting for tour
+        start.</string>
+    <string name="ready_for_tour_start">Waiting for the partner...</string>
+    <string name="partner_ready_streaming">Partner is ready! Starting streaming…</string>
+    <string name="tour_finished_successfully">Tour finished successfully.</string>
+    <string name="tour_cancelled">Tour was cancelled.</string>
+    <string name="checking_latest_status">Checking latest status…</string>
+    <string name="connection_error_cancelling">Connection error while cancelling</string>
+    <string name="connection_error_loading_service">Connection error while loading service</string>
+
+    <!-- StreamingScreen -->
+    <string name="connection_status_connecting">Connecting…</string>
+    <string name="connection_status_closed">Closed</string>
+    <string name="connection_status_disconnected">Disconnected</string>
+
+    <!-- RequestScreen -->
+    <string name="create_service_request">Create service request</string>
+    <string name="service_need_description">Tell us what service you need</string>
+    <string name="tour_request_explanation">Create a tour request and available partners in the
+        selected area will be able to accept it.</string>
+    <string name="destination_area">Destination area</string>
+    <string name="select_city">Select a city</string>
+    <string name="meeting_point_notes">Meeting point / notes</string>
+    <string name="meeting_point_placeholder">Optional: Historic center, plaza, museum entrance…</string>
+    <string name="request_summary">Request summary</string>
+    <string name="area">Area</string>
+    <string name="notes">Notes</string>
+    <string name="create_service">Create service</string>
+    <string name="service_created_successfully">Service created successfully</string>
+    <string name="request_visible_to_partners">Your request is now visible to available partners.</string>
+    <string name="service_id_prefix">Service ID: </string>
+    <string name="area_prefix">Area: </string>
+    <string name="active_request_exists">You already have an active request</string>
+    <string name="open_waiting_screen_message">Open the waiting screen to track or cancel this
+        request.</string>
+    <string name="done_button">Done</string>
+    <string name="stay_here_button">Stay here</string>
+    <string name="go_to_waiting_screen">Go to waiting screen</string>
+
+    <!-- HomeScreen -->
+    <string name="request_service">Request service</string>
+    <string name="my_services">My services</string>
+    <string name="refresh">Refresh</string>
+    <string name="tours">Tours</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="loading_services">Loading services...</string>
+    <string name="back">Back</string>
+    <string name="tour_cancelled_successfully">Tour cancelled successfully.</string>
+    <string name="server_empty_response">Server returned an empty response.</string>
+    <string name="not_selected">Not selected</string>
+    <string name="no_additional_notes">No additional notes</string>
+    <string name="stay_here">Stay here</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_tours">Tours</string>
+    <string name="nav_profile">Profile</string>
+    <string name="currency_suffix">COP</string>
+    <string name="price_format">%1$s COP</string>
+    <string name="currency_format">$%1$s COP</string>
+    <string name="search_placeholder_example">Bogotá, Colombia</string>
+    <string name="location_placeholder_example">E.g., Coffee shop near the park...</string>
+    <string name="describe_location_title">Describe the location</string>
+    <string name="confirm_location">Confirm location</string>
+    <string name="close">Close</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_messages">Messages</string>
+    <string name="nav_account">Account</string>
+    <string name="change_profile_photo">Change profile photo</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Español</string>
+
+    <!-- Rating -->
+    <string name="rate_your_guide">Rate your guide</string>
+    <string name="leave_comment">Leave a comment (optional, max 200 characters)</string>
+    <string name="submit_rating">Submit Rating</string>
+    <string name="skip">Skip</string>
+    <string name="rating_submitted">Thank you! Your rating has been submitted.</string>
+    <string name="rating_error">Failed to submit rating. Try again.</string>
+    <string name="comment_too_long">Comment must not exceed 200 characters.</string>
+    <string name="not_rated_yet">Not rated yet</string>
+</resources>

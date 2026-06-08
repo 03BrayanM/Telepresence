@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">SISPTMPartner</string>
+    <string name="register_title">Registro de Partner</string>
+    <string name="register_subtitle">Únete a nuestra red de guías turísticos</string>
+    <string name="full_name">Nombre Completo</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="city">Ciudad</string>
+    <string name="select_area">Selecciona una ciudad</string>
+    <string name="invalid_email">Ingresa un correo válido</string>
+    <string name="passwords_do_not_match">Las contraseñas no coinciden</string>
+    <string name="register_button">Registrarse</string>
+    <string name="already_have_account">¿Ya tienes una cuenta? Inicia sesión</string>
+    <string name="accept_terms">Acepto los términos y condiciones</string>
+    <string name="login_title">Inicio de Sesión Partner</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="dont_have_account">¿No tienes una cuenta? Regístrate</string>
+    <string name="welcome_home">¡Bienvenido a la Pantalla de Inicio de Partner!</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="home_title">Inicio Partner</string>
+    <string name="test_connection">Probar Conexión</string>
+    <string name="connection_success">Conexión Exitosa: %1$s</string>
+    <string name="connection_error">Error de Conexión: %1$s</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_back">Bienvenido de nuevo,</string>
+    <string name="gps_permission_required">Permiso de GPS Requerido</string>
+    <string name="gps_permission_explanation">Esta aplicación requiere acceso al GPS para actualizar tu ubicación y recibir solicitudes de tours. Por favor, habilita los permisos para continuar.</string>
+    <string name="grant_permissions">Conceder Permisos</string>
+    <string name="availability_status">Estado de Disponibilidad</string>
+    <string name="availability_explanation">Activa para recibir solicitudes de tours</string>
+    <string name="status_online">Estás conectado · Visible para clientes</string>
+    <string name="status_offline">Estás desconectado · No visible para clientes</string>
+    <string name="tours_today">Tours hoy</string>
+    <string name="your_rating">Tu calificación</string>
+    <string name="incoming_requests">Solicitudes Entrantes</string>
+    <string name="new_requests_count">%1$d nuevas</string>
+    <string name="no_requests_yet">Aún no tienes solicitudes. ¡Asegúrate de estar conectado para recibir nuevas!</string>
+
+    <!-- Requests -->
+    <string name="time_ago_min">Hace %1$d min</string>
+    <string name="duration_min">%1$d min</string>
+    <string name="price_format">$%1$s COP</string>
+    <string name="wants_tour">Quiere un tour en %1$s</string>
+    <string name="accept">Aceptar</string>
+    <string name="decline">Rechazar</string>
+
+    <!-- Actions -->
+    <string name="send_location">Enviar ubicación actual</string>
+
+    <!-- New Home Screen Strings -->
+    <string name="greeting">¡Hola, %s!</string>
+    <string name="connection_status">ESTADO DE CONEXIÓN</string>
+    <string name="transmit_now">Transmitir ahora</string>
+    <string name="active">Activo</string>
+    <string name="inactive">Inactivo</string>
+    <string name="daily_summary">RESUMEN DE HOY</string>
+    <string name="average_rating">Tu calificación promedio</string>
+    <string name="rating_placeholder">-- / 5.0</string>
+    <string name="reviews_placeholder">-- reseñas recibidas hoy</string>
+    <string name="average_rating_value">%1$.1f / 5.0</string>
+    <string name="reviews_received_today">%1$d reseñas recibidas hoy</string>
+    <string name="daily_earnings">Ganancias del día</string>
+    <string name="daily_earnings_amount">$%1$.2f</string>
+    <string name="earnings_placeholder">--</string>
+    <string name="pending_requests">SOLICITUDES PENDIENTES EN TU CIUDAD</string>
+    <string name="no_pending_requests">No hay solicitudes pendientes</string>
+    <string name="reject">RECHAZAR</string>
+    <string name="button_accept">ACEPTAR</string>
+    <string name="home">Inicio</string>
+    <string name="history">Historial</string>
+    <string name="profile">Perfil</string>
+    <string name="permission_required">Permiso de ubicación requerido</string>
+    <string name="default_partner_name">Socio</string>
+    <string name="permission_description">La aplicación necesita permiso de ubicación para transmitir tu estado y recibir solicitudes.</string>
+    <string name="request_permission">Solicitar permiso</string>
+    <string name="estimated_duration">Duración estimada: %d min</string>
+    <string name="estimated_payment">Pago estimado: $%.2f</string>
+    <string name="error_load_requests">No se pudieron cargar las solicitudes pendientes</string>
+    <string name="error_update_availability">No se pudo actualizar la disponibilidad</string>
+    <string name="login_error_connection">Error de conexión. Inténtalo de nuevo.</string>
+    <string name="login_error_invalid_credentials">Credenciales inválidas.</string>
+    <string name="login_error_server">Error del servidor. Inténtalo de nuevo.</string>
+    <string name="ok">Aceptar</string>
+    <string name="error_accept_request">No se pudo aceptar la solicitud</string>
+    <string name="tab_requests">Solicitudes</string>
+    <string name="tab_my_services">Mis servicios</string>
+    <string name="status_offline_title">Estás desconectado</string>
+    <string name="status_offline_explanation">Conéctate para recibir solicitudes de tours.</string>
+    <string name="retry">Reintentar</string>
+    <string name="waiting_for_requests">Esperando solicitudes...</string>
+    <string name="services_active">Servicios activos</string>
+    <string name="services_no_active">No hay servicios activos</string>
+    <string name="services_history">Historial de servicios</string>
+    <string name="services_no_history">No hay servicios en el historial</string>
+    <string name="services_idle">La lista de servicios aún no se ha cargado.</string>
+    <string name="label_client">Cliente</string>
+    <string name="label_location">Ubicación</string>
+    <string name="label_hours">Horas</string>
+    <string name="label_rate">Tarifa</string>
+
+    <!-- Tour detail dialog -->
+    <string name="tour_accepted_title">Tour aceptado</string>
+    <string name="tour_accepted_message">Has aceptado la solicitud de tour.</string>
+    <string name="tour_detail_service_id">ID del servicio: %1$s</string>
+    <string name="tour_detail_client">Cliente: %1$s</string>
+    <string name="tour_detail_area">Área: %1$s</string>
+    <string name="tour_detail_meeting_point">Punto de encuentro: %1$s</string>
+    <string name="tour_detail_duration">Duración: %1$s min</string>
+    <string name="tour_detail_hourly_rate">Tarifa: $%1$s COP/h</string>
+    <string name="tour_detail_requested_at">Solicitado en: %1$s</string>
+    <string name="tour_detail_status">Estado: %1$s</string>
+
+    <!-- Streaming Screen -->
+    <string name="streaming_title">Transmisión en Vivo</string>
+    <string name="debug_streaming">Probar Streaming</string>
+    <string name="connection_quality">Calidad de Conexión: %1$s</string>
+    <string name="instruction_up">ADELANTE</string>
+    <string name="instruction_down">RETROCEDE</string>
+    <string name="instruction_left">IZQUIERDA</string>
+    <string name="instruction_right">DERECHA</string>
+    <string name="waiting_instructions">Esperando instrucciones…</string>
+    <string name="camera_mic_permission_required">Cámara y Micrófono Requeridos</string>
+    <string name="camera_mic_permission_explanation">Esta aplicación requiere acceso a la cámara y al micrófono para iniciar la transmisión. Por favor, habilítalos para continuar.</string>
+    <!-- Additional UI strings -->
+    <string name="grant_access">Conceder Acceso</string>
+    <string name="end_session">Finalizar Sesión</string>
+    <string name="verify_server_connection">Verificar conexión del servidor</string>
+    <string name="accept_request_failed">Aceptar Solicitud Fallida</string>
+
+    <!-- PartnerServiceSummaryScreen -->
+    <string name="service_summary">Resumen del servicio</string>
+    <string name="unknown_error">Error desconocido</string>
+    <string name="back_to_home">Volver al inicio</string>
+    <string name="back_to_dashboard">Volver al panel</string>
+    <string name="service_completed">¡Servicio completado!</string>
+    <string name="service_completed_msg">¡Buen trabajo! Has completado el servicio exitosamente.</string>
+    <string name="your_earnings">Tus ganancias</string>
+    <string name="duration">Duración</string>
+    <string name="you_earned">Ganaste</string>
+    <string name="rate_na">Tarifa: N/D</string>
+    <string name="client_info_title">Información del cliente</string>
+    <string name="service_details">Detalles del servicio</string>
+    <string name="location_label">Ubicación</string>
+    <string name="completed_on">Completado el</string>
+    <string name="agreed_hours_label">Horas acordadas</string>
+    <string name="hours_unit"> horas</string>
+    <string name="currency_format">$%1$s COP</string>
+
+    <!-- ServiceReadyScreen -->
+    <string name="ready_to_start">¿Listo para iniciar?</string>
+    <string name="service_ref_prefix">Referencia del servicio: #</string>
+    <string name="ready_start_instruction">El cliente ha sido notificado y está esperando que inicies la transmisión.</string>
+    <string name="btn_start_transmission">INICIAR TRANSMISIÓN</string>
+    <string name="btn_go_back_dashboard">Volver al panel</string>
+
+    <!-- HomeScreen -->
+    <string name="not_specified">No especificado</string>
+    <string name="unknown_client">Cliente desconocido</string>
+    <string name="status_new">Nuevo</string>
+    <string name="service_prefix">#</string>
+    <string name="rate_unit_suffix"> COP/h</string>
+
+    <!-- RequestDetailScreen -->
+    <string name="incoming_request_title">Solicitud de tour entrante</string>
+
+    <!-- ServiceDetailScreen -->
+    <string name="service_in_progress">Servicio en progreso</string>
+    <string name="btn_complete_service">Completar servicio</string>
+    <string name="error_load_service_details">Error al cargar los detalles del servicio</string>
+    <string name="label_total_prefix">Total: </string>
+    <string name="minutes_unit_short"> min</string>
+    <string name="label_rate_prefix">Tarifa: </string>
+    <string name="per_hour_suffix">/hora</string>
+    <string name="you_earned_label">Ganaste</string>
+    <string name="duration_label">Duración</string>
+
+</resources>
