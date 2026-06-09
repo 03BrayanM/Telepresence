@@ -5,41 +5,37 @@ FROM eclipse-temurin:21-jdk-alpine AS build
 
 WORKDIR /app
 
-# Copiar mvnw y darle permisos
-COPY mvnw .
-COPY .mvn/ .mvn/
+# Usamos un comodín (*) para copiar el archivo pom, la carpeta .mvn y mvnw 
+# buscando en cualquier carpeta que termine en "management-service"
+COPY *management-service/pom.xml .
+COPY *management-service/.mvn/ .mvn/
+COPY *management-service/mvnw .
+
 RUN chmod +x mvnw
 
-# Copiar pom.xml y descargar dependencias (aprovecha cache de Docker)
-COPY pom.xml .
+# Descargar dependencias sin compilar el código fuente
 RUN ./mvnw dependency:go-offline -B
 
-# Copiar código fuente
-COPY backend-management-service/src/ src/
+# Copiamos la carpeta src usando el mismo truco del comodín para evitar fallos de ruta
+COPY *management-service/src/ src/
 
-# Compilar y empaquetar omitiendo tests
+# Compilar y empaquetar, omitiendo tests
 RUN ./mvnw package -DskipTests -B
 
 # ─────────────────────────────────────────────
-# STAGE 2 — Runtime
+# STAGE 2 — Runtime (Esta parte queda EXACTAMENTE IGUAL)
 # ─────────────────────────────────────────────
 FROM eclipse-temurin:21-jre-alpine AS runtime
 
 WORKDIR /app
 
-# Crear usuario no-root por seguridad
 RUN addgroup -S synexis && adduser -S synexis -G synexis
 
-# Copiar solo el JAR generado
 COPY --from=build /app/target/*.jar app.jar
-
 RUN chown synexis:synexis app.jar
 
 USER synexis
-
 EXPOSE 8080
-
-# Variables de entorno (se sobreescriben en Railway)
 ENV SERVER_PORT=8080
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
