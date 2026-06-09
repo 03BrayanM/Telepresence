@@ -15,7 +15,7 @@ COPY pom.xml .
 RUN ./mvnw dependency:go-offline -B
 
 # Copiar código fuente
-COPY src/ src/
+COPY backend-management-service/src/ src/
 
 # Compilar y empaquetar omitiendo tests
 RUN ./mvnw package -DskipTests -B
